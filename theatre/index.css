@@ -1,0 +1,167 @@
+* {
+    
+    list-style-type: none;
+    text-align:center;
+    box-sizing: border-box;
+    width:100%;
+    
+
+   
+    
+}
+body {
+    margin:0%;
+    padding:0%;
+    border:0%;
+
+
+    
+}
+.nav-items {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 300px;
+
+    
+    
+}
+.nav-main {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left:8%;
+    color:lightgray;
+    text-decoration: none;
+    font-size: x-large;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding-top:15px;
+
+    
+}
+.nav-item a {
+    color:lightgray;
+    text-decoration: none;
+    padding:10px;
+    font-size: medium;
+}
+.background {
+    
+    position:relative;
+    
+}
+.main {
+  position:absolute;
+  top:280px;
+  text-align: center;
+  color:white;
+  font-size: 550%;
+  
+}
+ .time  {
+    display:inline-block;
+    text-align:left;
+    margin-top:150px;
+    margin-bottom:30px;
+    padding:10px;
+    padding-left:45px;
+    border: 2px solid black;
+    width:60%;
+    background-color:gainsboro
+}
+.showings {
+    padding:0px;
+    padding-left:22%;
+    padding-right:22%;
+}
+.perf-pic {
+    width:625px;
+    height:150px;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+} 
+.readmore {
+    margin-top:30px;
+    width:35%;
+}
+.readbutton {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    color:white;
+    background-color:goldenrod;
+
+
+}
+.showing {
+    display:flex;
+    flex-direction: column;
+    margin-top:0px;
+}
+.showing div {
+    padding:10px;
+    margin-top:0;
+    text-align: left;
+}
+
+.showings {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top:30px;
+    
+}
+hr {
+    width:60%;
+}
+.map img{
+    margin-top:30px;
+    height:200px;
+    width:300px;
+    padding-left: 100px;
+
+}
+.info-footer *, .shows-footer *, .social * {
+    text-align:left;
+
+}
+.shows-footer {
+    display:flex;
+    flex-direction: column;
+    padding-right: 00px;
+}
+.social{
+    display:flex;
+    flex-direction: column;
+}
+.social a {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+footer {
+    padding-left: 0px;
+    padding-right: px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top:80px;
+    justify-content: space-evenly;
+    background-color:black;
+    color:white;
+    
+}
+footer a {
+    color:white;
+    text-decoration: none;
+    padding:0px;
+}
+.info-footer p {
+    padding-top: 25px;
+}
